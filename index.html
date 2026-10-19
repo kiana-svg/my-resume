@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kiana Ahmadi | Front-End Developer</title>
+  </head>
+  <body>
+    <header>
+      <h1>Kiana Ahmadi</h1>
+      <nav class="headerflexbox">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!--about section-->
+      <section id="about">
+        <img src="./pics/11.webp" alt="Kiana Ahmadi" id="profilepic" />
+        <p>
+          Hi, I'm Kiana, a 21-year-old front-end developer at the start of my
+          journey. I have an intermediate level in HTML and CSS, and I'm
+          self-taught in JavaScript fundamentals. React is next on my list. I'm
+          looking for practical, real-world experience. I learn fast and want to
+          grow through hands-on work. Alongside programming, I've worked as a
+          translator since age 14 and spent time teaching English as well,
+          experiences that shaped my attention to detail and communication
+          skills.
+        </p>
+      </section>
+      <!--skills section-->
+      <section id="skills">
+        <p>What I work with</p>
+        <h2>Skills</h2>
+        <!--html part-->
+        <div class="skillbox">
+          <div class="header">
+            <span>HTML5</span>
+            <span class="level">Advanced</span>
+          </div>
+          <div class="barpercent">
+            <div id="htmlpercent" style="width: 90%"></div>
+          </div>
+        </div>
+        <!--css part-->
+        <div class="skillbox">
+          <div class="header">
+            <span>CSS3</span>
+            <span class="level">High Intermediate</span>
+          </div>
+          <div class="barpercent">
+            <div id="csspercent" style="width: 70%"></div>
+          </div>
+        </div>
+        <!--js part-->
+        <div class="skillbox">
+          <div class="header">
+            <span>JavaScript</span>
+            <span class="level">Intermediate</span>
+          </div>
+          <div class="barpercent">
+            <div id="jspercent" style="width: 50%"></div>
+          </div>
+        </div>
+        <!--python part-->
+        <div class="skillbox">
+          <div class="header">
+            <span>Python</span>
+            <span class="level">Intermediate</span>
+          </div>
+          <div class="barpercent">
+            <div id="pypercent" style="width: 50%"></div>
+          </div>
+        </div>
+        <p>Also familiar with SQL, C++, etc.</p>
+      </section>
+      <!--projects section-->
+      <section id="projects">
+        <p>What I've built</p>
+        <h2>Projects</h2>
+        <!--project1-->
+        <div class="project-cards">
+          <article class="projectcard">
+            <div class="projectimage">
+              <img src="./pics/cart-outline.svg" alt="Project 1" />
+            </div>
+            <div class="project-top">
+              <h3 class="projecttitle">Smart shopping cart</h3>
+              <p class="projectdescription">
+                Dynamic pricing, discounts, and stock-aware checkout
+              </p>
+            </div>
+            <a href="https://github.com/kiana-svg" class="gitlink"
+              >View on GitHub</a
+            >
+            <div class="hoverdetail">
+              <p class="hoverdescription">
+                A dynamic shopping cart that calculates the final price, applies
+                various discounts, and manages item quantities (add/remove).
+                Shipping cost is calculated based on the total cart value. The
+                system also tracks stock levels — when an item is out of stock,
+                checkout is automatically disabled to prevent a broken user
+                experience.
+              </p>
+            </div>
+          </article>
+          <!--project2-->
+          <article class="projectcard">
+            <div class="projectimage">
+              <img src="./pics/shield.svg" alt="Project 2" />
+            </div>
+            <div class="project-top">
+              <h3 class="projecttitle">Secure sign up system</h3>
+              <p class="projectdescription">
+                Registration with captcha, validation, and password recovery.
+              </p>
+            </div>
+            <a href="https://github.com/kiana-svg" class="gitlink"
+              >View on GitHub</a
+            >
+            <div class="hoverdetail">
+              <p class="hoverdescription">
+                A complete registration and login system featuring a randomly
+                generated captcha (numbers and letters) to prevent spam,
+                password recovery functionality, and automatic user data storage
+                in the database. Client-side validation blocks underage sign-ups
+                and rejects empty or single-space inputs.
+              </p>
+            </div>
+          </article>
+          <!--project3-->
+          <article class="projectcard">
+            <div class="projectimage">
+              <img src="./pics/airplane.svg" alt="Project 3" />
+            </div>
+            <div class="project-top">
+              <h3 class="projecttitle">Travel search platform</h3>
+              <p class="projectdescription">
+                Dynamic destination search by city of origin.
+              </p>
+            </div>
+            <a href="https://github.com/kiana-svg" class="gitlink"
+              >View on GitHub</a
+            >
+            <div class="hoverdetail">
+              <p class="hoverdescription">
+                An interactive tour and travel search platform where users enter
+                their city of origin to browse available destinations and trips.
+                The application uses a destination database stored in JavaScript
+                objects and array methods to match the user's input with the
+                available destinations. Based on the entered city, the
+                corresponding destinations are retrieved and displayed
+                dynamically without requiring a reload.
+              </p>
+            </div>
+          </article>
+        </div>
+        <p>Hover to reveal details — this card shows the hovered state</p>
+      </section>
+      <!--education section-->
+      <section id="education">
+        <p>Background</p>
+        <h2>Education</h2>
+        <div class="edu-item">
+          <h3>Computer Engineering</h3>
+          <p>
+            Imam Khomeini Memorial University — since 2023, currently in 7th
+            semester
+          </p>
+        </div>
+        <div class="edu-item">
+          <h3>JavaScript</h3>
+          <p>
+            Self-taught — hands-on projects, official docs, and online courses
+          </p>
+        </div>
+        <div class="edu-item">
+          <h3>Languages</h3>
+          <p>English (C2), German (B1)</p>
+        </div>
+        <div class="edu-item">
+          <h3>HTML & CSS</h3>
+          <p>
+            Sedayi Technical and Vocational School | since 2023 to 2024
+            Self-taught — hands-on projects, official docs, and online courses
+          </p>
+        </div>
+      </section>
+      <!--contact section-->
+      <section id="contact">
+        <p>Get in touch</p>
+        <h2>Contact</h2>
+        <p>
+          I'm actively looking for internship or collaboration opportunities.
+          Feel free to reach out.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:Kiyanaahmadi697@gmail.com">
+            <img src="./pics/email.svg" alt="Email" class="linkpics" />
+            <span>Email</span>
+          </a>
+          <a href="https://github.com/kiana-svg" target="_blank">
+            <img src="./pics/github.svg" alt="GitHub" class="linkpics" />
+            <span>GitHub</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kiyana-ahmadi-98a147310?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+            target="_blank"
+          >
+            <img src="./pics/linkedin.svg" alt="LinkedIn" class="linkpics" />
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!--thank you-->
+      <section id="closing">
+        <p>Thanks for stopping by</p>
+        <p>
+          I hope you enjoyed my site. I'm looking forward to hearing from you —
+          feel free to reach out anytime.
+        </p>
+      </section>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
